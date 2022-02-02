@@ -1,0 +1,13 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: cyber-done-discovery
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    healthcheck:
+      enabled: true
+  server:
+    enableSelfPreservation: false
