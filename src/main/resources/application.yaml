@@ -4,6 +4,8 @@ spring:
   application:
     name: cyber-done-discovery
 eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 10
   client:
     registerWithEureka: false
     fetchRegistry: false
